@@ -27,8 +27,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: |
-          sed -i '5i\  "homepage": "/najlepszapsiapsi-pages",' ./package.json
+    #   - run: |
+    #       sed -i '5i\  "homepage": "/najlepszapsiapsi-pages",' ./package.json
       - run: npm cache clear --force
       - run: npm install
       - run: npm ci
