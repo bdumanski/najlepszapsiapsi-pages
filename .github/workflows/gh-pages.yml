@@ -29,6 +29,7 @@ jobs:
 
       - run: |
           sed -i '5i\  "homepage": "/pages-demo-react",' ./package.json
+      - run: npm cache clear --force
       - run: npm ci
       - run: npm run build
       - run: cp build/index.html build/404.html
