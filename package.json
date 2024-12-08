@@ -2,7 +2,7 @@
   "name": "dog-training-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://bdumanski.github.io/najlepszapsiapsi-pages/",
+  "homepage": "http://bdumanski.github.io/najlepszapsiapsi-pages/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
