@@ -55,6 +55,38 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <section className="contact">
+        <div className="contact-left">
+          <h3>Kontakt</h3>
+          <p><strong>Lokalizacja:</strong> ul. Psia 123, 00-000 Warszawa</p>
+          <p><strong>Telefon:</strong> +48 123 456 789</p>
+          <p><strong>Email:</strong> kontakt@psiaszkola.pl</p>
+        </div>
+        <div className="contact-right">
+          <h3>Formularz kontaktowy</h3>
+          <form className="contact-form">
+            <div className="form-group">
+              <label htmlFor="name">Imię i nazwisko</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="email">Adres email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="phone">Nr telefonu</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="message">Treść wiadomości</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Wyślij</button>
+          </form>
+        </div>
+      </section>
+
     </>
   );
 }
