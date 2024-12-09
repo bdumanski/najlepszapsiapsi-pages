@@ -5,7 +5,7 @@ export default function Offer() {
     { id: "puppy-school", title: "Przedszkole", image: "/images/puppy-school.jpg" },
     { id: "fitness", title: "Fitness", image: "/images/fitness.jpg" },
     { id: "social-walks", title: "Spacery", image: "/images/social-walks.jpg" },
-    { id: "petsitting", title: "Petsitting", image: "/images/petsitting.png" },
+    { id: "petsitting", title: "Petsitting", image: "/images/petsitting.jpg" },
   ];
 
   return (
