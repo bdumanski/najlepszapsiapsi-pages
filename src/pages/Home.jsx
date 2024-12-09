@@ -32,11 +32,27 @@ export default function Home() {
         <div className="offer-grid">
           {offers.map((offer) => (
             <div key={offer.id} className="offer-item">
-              <img src={offer.image} alt={offer.title} />
+              
+                <img src={offer.image} alt={offer.title} />
+              
               <h3>{offer.title}</h3>
               <a href={`/offer#${offer.id}`} className="offer-link">Dowiedz się więcej</a>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="about">
+        <div className="about-image">
+          <img src="/images/why-best-dog.jpg" alt="Pies" />
+        </div>
+        <div className="about-content">
+          <p>
+            Nasze kursy są realizowane w oparciu o starannie przygotowany program szkoleniowy, 
+            który na bieżąco modyfikujemy pod potrzeby uczestników. Podczas zajęć kładziemy duży nacisk 
+            na umiejętności potrzebne w życiu codziennym oraz zagadnienia, które mają na celu zbudowanie 
+            silnej więzi i pełnej zrozumienia relacji między psem, a jego opiekunem.
+          </p>
         </div>
       </section>
     </>
